@@ -289,14 +289,31 @@ background: linear-gradient(to right, #556270, #4ECDC4); /* W3C, IE 10+/ Edge, F
   
    cursor: pointer;
    border-bottom: 1px solid black;
-   color:rgb(5, 26, 97);
+   color:black;
    border: 1px solid black;
-
+   background-image: url(./image/11.jpg);
+   background-repeat: no-repeat;
+   background-position:bottom;
+   background-size: cover;
    padding: 20px;
    border-radius: 5px;
   }
+
+  .faqbtn2{
+    background-image: url(./image/122.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+  }
+  .faqbtn3{
+    background-image: url(./image/144.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+  }
   .textp{
       width: 94%;
+      color: black;
   }
  .box{
      width: 40%;
@@ -309,10 +326,7 @@ background: linear-gradient(to right, #556270, #4ECDC4); /* W3C, IE 10+/ Edge, F
       color: white;
       padding: 20px 0;
       font-weight: 700;
-      background-image: url(./image/opened-book-coffee-with-bouquet_23-2147711392.jpg);
-      background-repeat: no-repeat;
-    background-position:center;
-    background-size: cover;
+    
     }
   p {
       padding-left: 10px;
