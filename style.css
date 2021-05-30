@@ -248,6 +248,7 @@ input:hover{
 .w30{
     width: 200px;
     margin-top: 50px;
+    margin-bottom: 30px;
 
 }
 
@@ -323,8 +324,6 @@ background: linear-gradient(to right, #556270, #4ECDC4); /* W3C, IE 10+/ Edge, F
 }
   .center{
       display: flex;
-      
-      /* flex-direction: column; */
       justify-content: center;
   }
   
@@ -359,7 +358,7 @@ background: linear-gradient(to right, #556270, #4ECDC4); /* W3C, IE 10+/ Edge, F
     font-weight: 900;
 }
 .column{
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     border: 2px solid rgb(112, 107, 107);
     background-color: white;
     border-radius: 5px;
