@@ -135,27 +135,33 @@ li {
     margin: 5px 0;
     padding: 5px 15px;
     font-size: 12px;
-    border-radius: 5px;
+    border-radius: 7px;
     border:none;
+    cursor: pointer;
+    }
+#red:hover{
+    background: #FF5F6D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFC371, #FF5F6D); 
+        color: white;
+        border: 2px solid #FF5F6D;
+        
     }
 
-    .redaa {background: #FF5F6D;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
-        }
 
-    .blackaa {
+#black:hover {
         background: #000000;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+     color: white;
+     border: 2px solid black;
     }
-    .blueaa {
+#blue:hover {
         background: #3a7bd5;  /* fallback for old browsers */
         background: -webkit-linear-gradient(to right, #3a6073, #3a7bd5);  /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to right, #3a6073, #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
+        color: white;
+        border: 2px solid #3a7bd5;
     }
 
 .colorbar{

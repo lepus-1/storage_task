@@ -41,7 +41,7 @@ linkfaq.innerText ="კითხვარი"
 navbar.setAttribute("class", "navbar")
 navbar.setAttribute("id", "navbar")
 linkhome.setAttribute("href","index.html")
-linkfaq.setAttribute("href", "faq.html")
+linkfaq.setAttribute("href", "#faq")
 linkhome.setAttribute("class","link_head")
 linkfaq.setAttribute("class","link_head")
 
