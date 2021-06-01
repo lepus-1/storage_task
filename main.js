@@ -138,7 +138,7 @@ let inleqsi = document.getElementById("inleqsi")
 
 let btnsend = document.getElementById("sendbtn")
 btnsend.addEventListener("click", function () {
-    // event.preventDefault()
+    
     let local={
       name:inpname.value,
       lastname: inlastname.value,
@@ -170,14 +170,12 @@ let mailOut=document.getElementById('mailout')
   
   del.addEventListener("click",() =>{
      {
-       nameOut.innerText = '';
+       nameOut.innerText = ''
        mailOut.innerText = ""
        leqsiOut.innerText =""
+       localStorage.removeItem("person")
     }
 
   })
 
-//   function del() {
-//     localStorage.removeItem("person");
-//   }
 
