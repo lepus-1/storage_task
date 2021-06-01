@@ -165,6 +165,19 @@ let mailOut=document.getElementById('mailout')
   leqsiOut.innerText = itemsName.leqsi
 
 
-function deleteItem() {
-  localStorage.removeItem("person");
-}
+  let del = document.getElementById("del")
+  let form = document.getElementById("form")
+  
+  del.addEventListener("click",() =>{
+     {
+       nameOut.innerText = '';
+       mailOut.innerText = ""
+       leqsiOut.innerText =""
+    }
+
+  })
+
+//   function del() {
+//     localStorage.removeItem("person");
+//   }
+
